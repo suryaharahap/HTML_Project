@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: "Gorgia";
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    color: white;
+    height: 75px;
+    width: 100%;
+    background-color:#5460CF;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.header-logo{
+    float: left;
+    margin-top: 2.17px;    
+}
+
+.logo{
+    width: 200px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -20px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 5px 20px;
+    color: white;
+    float: right;
+    display: block;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+.fa {
+    margin: 7px;
+}
+
+.menu-icon{
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding: 21px 0;
+    display: block;
+}
+
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-wrapper{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #5460CF;
+    border-radius : 0 0 0 110px;
+    height: 490px;   
+}
+
+.conten {
+    display: flex;
+}
+
+.list-text {
+    width: 800px;
+    margin: 100px 0 5px 35px;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.tickets{
+    background-color: #239b76;
+}
+
+.btn-wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.conten2 {
+    display: flex;    
+}
+
+.text-init {
+    width: 50%;
+    margin: 40px 0 10px;
+}
+
+.message-wrapper p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.message-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+
+.conten3 {
+    display: flex;
+}
+
+.conten-list img {
+    padding: 15px;
+    flex: auto;
+    bottom: 50px;
+}
+/* Ini untuk css team 
+.Myteam {
+    display: flex;
+    width: 50%;
+    
+}
+
+.css-1d0g3wl img{
+   width: 500px;
+   float: left;
+}
+
+.css-1bdt2bs {
+    padding-top: 80px;
+    width: 500px;
+}
+
+*/
+
+/* ini footer css */
+
+footer{
+    background-color: #793cd2;
+    border-radius: 0 90px 0 50px;
+    max-width: 100%;
+    height: auto;
+}
+.footer-row{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #dee7ec;
+}
+.footer-logo{
+  width: 60%;
+  color: white;
+  border-radius: 10px;
+}
+.footer-logo h1{
+  margin-top: 30px;
+  font-size: 30px;
+  font-style: oblique;
+}
+.logo-bot{
+    width: 150px;
+    height: auto;
+
+}
+.footer-menu{
+  margin: 0;
+  color: white;
+}
+
+.menu-one{
+  padding: 0;
+  margin: 0;
+}
+
+.menu-one li{
+  margin-right: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  float: left
+}
+
+.menu-one li:hover{
+  color: #de4f34;
+  cursor: pointer;
+}
+
+.footer-form{
+  width: 40%;
+  color: white;
+  font-size: 16px;
+}
+
+input, textarea{
+width:400px;
+padding:7px;
+font-size:16px;
+border:1px solid #dee7ec;
+border-radius: 50px;
+}
+
+.contact-submit{
+color: white;
+display: inline-block;
+opacity: 0.8;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.message {
+padding: 15px 40px;
+background-color: #de4f34;
+cursor: pointer;
+box-shadow: 0 7px #ad432e;
+}
+
+.message:active {
+position: relative;
+top: 7px;
+box-shadow: none;
+}
+
+.btn:hover {
+opacity: 1;
+}
+
+.section-title {
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
+.footer-extra {
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.copyr{
+  width: 50%;
+}
+
+.addmore{
+  text-align: right;
+  width: 50%;
+  margin-top: 10px ;
+  font-size: 20px;
+}
+
+.addmore span:hover{
+  color: #de4f34;
+}
